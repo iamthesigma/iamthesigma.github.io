@@ -1,14 +1,12 @@
-title: "No Description Needed"
+title: "No"
 email: "iam@thesigma.ca"
-description: "Nope"
-baseurl: "/thesigma.ca-jekyll-site" # the subpath of your site, e.g., /blog
-url: "https://iamthesigma.github.io" # the base hostname & protocol for your site
+description: "You wish"
+baseurl: ""
+url: "https://thesigma.ca"
 
-# Build settings
 markdown: kramdown
 theme: minima
 
-# Other settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
