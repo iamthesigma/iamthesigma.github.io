@@ -21,6 +21,8 @@ header {
 header .banner {
     width: 100%;
     height: auto;
+    max-width: 1200px; /* Limit the maximum width */
+    margin: 0 auto; /* Center the banner */
 }
 
 header nav ul {
@@ -84,4 +86,21 @@ ul li {
     padding: 0.5em;
     border: 1px solid #00ff00;
     color: #00ff00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .banner {
+        max-width: 100%; /* Full width on smaller screens */
+    }
+
+    main {
+        padding: 1em;
+        border: none;
+    }
+
+    footer {
+        padding: 0.5em 0;
+        border-top: none;
+    }
 }
