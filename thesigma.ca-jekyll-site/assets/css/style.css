@@ -23,6 +23,9 @@ header .banner {
     height: auto;
     max-width: 1200px; /* Limit the maximum width */
     margin: 0 auto; /* Center the banner */
+    border: 2px solid #00ff00; /* Optional: Add a border to blend with the theme */
+    box-shadow: 0 0 10px #00ff00; /* Optional: Add a shadow for better blending */
+
 }
 
 header nav ul {
