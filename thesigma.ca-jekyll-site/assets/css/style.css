@@ -22,7 +22,7 @@ header {
 header .banner {
     width: 40%; /* Reduce the width to 75% of its container */
     height: auto;
-    max-width: 900px; /* Limit the maximum width to 900px */
+    max-width: 0 auto; /* Limit the maximum width to 900px */
     margin: 0 auto; /* Center the banner */
     position: relative;
     z-index: 1;
