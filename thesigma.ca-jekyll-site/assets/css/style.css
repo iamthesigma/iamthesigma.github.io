@@ -18,6 +18,11 @@ header {
     border-bottom: 1px solid #00ff00;
 }
 
+header .banner {
+    width: 100%;
+    height: auto;
+}
+
 header nav ul {
     list-style: none;
     padding: 0;
