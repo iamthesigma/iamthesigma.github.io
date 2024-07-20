@@ -1,3 +1,20 @@
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-archives
+
+paginate: 5
+paginate_path: "/page:num/"
+  
+markdown: kramdown
+
+seo:
+  title: "My Awesome Site"
+  description: "Write an awesome description for your new site here."
+  author: "Your Name"
+  url: "https://iamthesigma.github.io"
+  instagram: "thesigma.ca"
