@@ -1,109 +1,63 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #000;
+    background-color: #000;
     color: #00ff00;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header {
-    background: #111;
-    color: #00ff00;
-    padding: 1em 0;
     text-align: center;
-    border-bottom: 1px solid #00ff00;
+    padding: 2em 0;
 }
 
-header .banner {
-    width: 100%;
+.banner {
+    width: 75%;
     height: auto;
-    max-width: 1200px; /* Limit the maximum width */
-    margin: 0 auto; /* Center the banner */
-    border: 2px solid #00ff00; /* Optional: Add a border to blend with the theme */
-    box-shadow: 0 0 10px #00ff00; /* Optional: Add a shadow for better blending */
-
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-header nav ul li a {
-    color: #00ff00;
-    text-decoration: none;
-}
-
-header nav ul li a:hover {
-    text-decoration: underline;
-}
-
-main {
-    flex: 1;
-    padding: 2em;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
-    background: #111;
-    border: 1px solid #00ff00;
+    position: relative;
+    z-index: 1;
 }
 
-footer {
-    background: #111;
-    color: #00ff00;
-    text-align: center;
-    padding: 1em 0;
-    border-top: 1px solid #00ff00;
-    width: 100%;
-}
-
-h1, h2, h3 {
-    color: #00ff00;
-}
-
-a {
-    color: #00ff00;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-ul {
+nav ul {
     list-style-type: none;
     padding: 0;
 }
 
-ul li {
-    background: #111;
-    margin: 0.5em 0;
-    padding: 0.5em;
-    border: 1px solid #00ff00;
-    color: #00ff00;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    header .banner {
-        max-width: 100%; /* Full width on smaller screens */
-    }
+nav ul li a {
+    color: #00ff00;
+    text-decoration: none;
+}
 
-    main {
-        padding: 1em;
-        border: none;
-    }
+nav ul li a:hover {
+    text-decoration: underline;
+}
 
-    footer {
-        padding: 0.5em 0;
-        border-top: none;
-    }
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    border-top: 1px solid #00ff00;
+    margin-top: 2em;
+}
+
+.matrix {
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff00;
+    animation: matrix 1s infinite;
+}
+
+@keyframes matrix {
+    0% { color: #00ff00; }
+    50% { color: #007700; }
+    100% { color: #00ff00; }
 }
