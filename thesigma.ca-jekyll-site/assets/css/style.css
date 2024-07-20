@@ -129,16 +129,3 @@ canvas {
     z-index: 0;
     pointer-events: none;
 }
-
-/* Instagram Icon */
-.instagram-link {
-    display: inline-block;
-    margin-top: 1em;
-}
-
-.instagram-icon {
-    width: 30px;
-    height: 30px;
-    background: url('/assets/images/instagram_icon.png') no-repeat center center;
-    background-size: contain;
-}
