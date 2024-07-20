@@ -20,10 +20,9 @@ header {
     margin: 0 auto;
     position: relative;
     z-index: 1;
-    /* Add these lines for the fading effect */
     box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.5);
     border-radius: 15px;
-    background: rgba(0, 0, 0, 0.8); /* Adjust the transparency as needed */
+    background: rgba(0, 0, 0, 0.8);
 }
 
 nav ul {
@@ -52,12 +51,51 @@ main {
     border: 2px solid #00ff00;
     position: relative;
     z-index: 2;
+    text-align: center;
 }
 
 section {
     border: 2px solid #00ff00;
     padding: 1em;
     margin-bottom: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+}
+
+label {
+    margin-bottom: 0.5em;
+    color: #00ff00;
+}
+
+input[type="email"] {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 2px solid #00ff00;
+    background-color: #000;
+    color: #00ff00;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: 2px solid #00ff00;
+    background-color: #000;
+    color: #00ff00;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: #000;
 }
 
 footer {
