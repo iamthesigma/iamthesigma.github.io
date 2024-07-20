@@ -1,22 +1,41 @@
----
-layout: default
-title: Home
----
-
-# Words
-
-This is the main page of my Jekyll site.
-
-## About
-
-This site is created using Jekyll and is hosted on GitHub Pages.
-
-### Features
-
-- Easy to use
-- Fast
-- "Secure"
-
-## Contact
-
-Feel free to reach out at [iam@thesigma.ca](mailto:iam@thesigma.ca).
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigma Tech</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% include head.html %}
+</head>
+<body>
+    <header>
+        <h1>Salve et Gratus</h1>
+        <p>Exploring the depths of technology and security</p>
+    </header>
+    <main>
+        <section>
+            <h2>Caracteres</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+        </section>
+        <section>
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </section>
+        <section>
+            <h3>Commentarius</h3>
+            <ul>
+                <li>Facilis est et expedita distinctio</li>
+                <li>Nam libero tempore</li>
+                <li>Soluta nobis est eligendi</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <p>Feel free to reach out at <a href="mailto:iam@thesigma.ca">iam@thesigma.ca</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 iamthesigma. All rights reserved.</p>
+    </footer>
+</body>
+</html>
