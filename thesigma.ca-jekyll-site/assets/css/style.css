@@ -145,4 +145,5 @@ canvas {
     background-size: contain;
     display: inline-block;
     vertical-align: middle;
+    border-radius: 50%; /* Added for rounded borders */
 }
