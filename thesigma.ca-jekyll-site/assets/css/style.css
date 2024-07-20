@@ -5,6 +5,9 @@ body {
     padding: 0;
     background: #000;
     color: #00ff00;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -15,7 +18,27 @@ header {
     border-bottom: 1px solid #00ff00;
 }
 
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
 main {
+    flex: 1;
     padding: 2em;
     max-width: 800px;
     margin: 0 auto;
@@ -29,12 +52,10 @@ footer {
     text-align: center;
     padding: 1em 0;
     border-top: 1px solid #00ff00;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #00ff00;
 }
 
