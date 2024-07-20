@@ -20,7 +20,7 @@ header {
 }
 
 header .banner {
-    width: 75%; /* Reduce the width to 75% of its container */
+    width: 40%; /* Reduce the width to 75% of its container */
     height: auto;
     max-width: 900px; /* Limit the maximum width to 900px */
     margin: 0 auto; /* Center the banner */
