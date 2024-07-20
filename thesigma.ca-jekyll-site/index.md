@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Awesome Site
+# Words
 
-This is the main page of my awesome Jekyll site.
+This is the main page of my Jekyll site.
 
 ## About
 
@@ -15,7 +15,7 @@ This site is created using Jekyll and is hosted on GitHub Pages.
 
 - Easy to use
 - Fast
-- Secure
+- "Secure"
 
 ## Contact
 
