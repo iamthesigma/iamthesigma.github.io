@@ -1,12 +1,3 @@
-title: "Nope"
-email: "iam@thesigma.ca"
-description: "Nope"
-baseurl: "" # No subpath if it's deployed at the root
-url: "https://iamthesigma.github.io"
-
-markdown: kramdown
-theme: minima
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+theme: jekyll-theme-minimal
+title: Sure
+description: Bookmark this to keep an eye on my project updates!
