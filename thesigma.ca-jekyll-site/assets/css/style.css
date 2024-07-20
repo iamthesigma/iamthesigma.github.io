@@ -21,9 +21,8 @@ header {
     position: relative;
     z-index: 1;
     box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.5);
-    border-radius: 15px;
-    background: rgba(0, 0, 0, 0.8);
-    opacity: 0.10; /* Adjust this value to change transparency */
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 85%);
 }
 
 nav ul {
