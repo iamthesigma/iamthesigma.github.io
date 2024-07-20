@@ -20,12 +20,10 @@ header {
 }
 
 header .banner {
-    width: auto; /* Reduce the width to 75% of its container */
+    width: 100%; /* Reduce the width to 75% of its container */
     height: auto;
-    max-width: 0 auto; /* Limit the maximum width to 900px */
+    max-width: 1000px; /* Limit the maximum width to 900px */
     margin: 0 auto; /* Center the banner */
-    position: relative;
-    z-index: 1;
     border: 2px solid #00ff00; /* Optional: Add a border to blend with the theme */
     box-shadow: 0 0 10px #00ff00; /* Optional: Add a shadow for better blending */
 }
