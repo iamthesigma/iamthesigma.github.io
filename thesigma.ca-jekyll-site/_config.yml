@@ -1,8 +1,8 @@
-title: "No"
+title: "Nope"
 email: "iam@thesigma.ca"
-description: "You wish"
-baseurl: ""
-url: "https://thesigma.ca"
+description: "Nope"
+baseurl: "" # No subpath if it's deployed at the root
+url: "https://iamthesigma.github.io"
 
 markdown: kramdown
 theme: minima
