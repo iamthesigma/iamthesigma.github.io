@@ -3,8 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Sigma</title>
+    <title>The Sigma Tech</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <style>
+        body {
+            background-color: #000;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        header {
+            text-align: center;
+            padding: 2em 0;
+        }
+        .banner {
+            width: 75%;
+            height: auto;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #00ff00;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2em;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            border-top: 1px solid #00ff00;
+            margin-top: 2em;
+        }
+        .matrix {
+            font-family: 'Courier New', Courier, monospace;
+            color: #00ff00;
+            animation: matrix 1s infinite;
+        }
+        @keyframes matrix {
+            0% { color: #00ff00; }
+            50% { color: #007700; }
+            100% { color: #00ff00; }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -22,25 +77,25 @@
     </header>
     <main>
         <section id="welcome">
-            <h2>Welcome to The Sigma Tech</h2>
+            <h2 class="matrix">Welcome to The Sigma Tech</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
         </section>
         <section id="about">
-            <h2>About Us</h2>
+            <h2 class="matrix">About Us</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </section>
         <section id="mission">
-            <h3>Our Mission</h3>
+            <h3 class="matrix">Our Mission</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
         </section>
         <section id="services">
-            <h3>What We Offer</h3>
+            <h3 class="matrix">What We Offer</h3>
             <ul>
                 <li><strong>Tech Consulting:</strong> Expert advice to help you navigate the complex tech landscape.</li>
                 <li><strong>Cybersecurity Checks:</strong> Comprehensive security audits to protect your digital assets.</li>
                 <li><strong>Custom Solutions:</strong> Tailored technology solutions to meet your unique needs.</li>
             </ul>
-            <h2>Services</h2>
+            <h2 class="matrix">Services</h2>
             <ol>
                 <li>
                     <strong>Technology Consulting</strong>
@@ -67,7 +122,7 @@
             </ol>
         </section>
         <section id="contact">
-            <h2>Contact Us</h2>
+            <h2 class="matrix">Contact Us</h2>
             <p>Feel free to reach out at <a href="mailto:iam@thesigma.ca">iam@thesigma.ca</a>.</p>
         </section>
     </main>
